@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0c798c1.css",
+    "main.js": "/static/js/main.0fac895b.js",
+    "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
+    "static/media/Agustina.otf": "/static/media/Agustina.320d237b3c9e9e794388.otf",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/nucleo-icons.svg": "/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.19abb5402a664606b14c.eot",
+    "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
+    "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
+    "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "index.html": "/index.html",
+    "main.e0c798c1.css.map": "/static/css/main.e0c798c1.css.map",
+    "main.0fac895b.js.map": "/static/js/main.0fac895b.js.map",
+    "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0c798c1.css",
+    "static/js/main.0fac895b.js"
+  ]
+}
