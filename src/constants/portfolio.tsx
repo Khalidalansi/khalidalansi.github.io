@@ -235,7 +235,7 @@ export const projects: Array<ProjectT> = [
     {
         name: "Portfolio",
         desc: "Software Developer Portfolio Template built with react.js and typescript bootstrap that helps you showcase your work and skills as a software developer.",
-        github: "https://github.com/Khalidalansi/portfolio",
+        github: "https://github.com/Khalidalansi/khalidalansi.github.io",
         link: "https://khalidalansi.github.io",
         images: [
             {
