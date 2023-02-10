@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0c798c1.css",
-    "main.js": "/static/js/main.de48e155.js",
+    "main.css": "/static/css/main.26febdf4.css",
+    "main.js": "/static/js/main.761bb346.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
+    "static/media/SegoeUI-VF.ttf": "/static/media/SegoeUI-VF.142593ecca549715e938.ttf",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
+    "static/media/easyeatery.jpg": "/static/media/easyeatery.c1ad9f86cd8ca0c6cacc.jpg",
+    "static/media/Segoe-UI-Variable-Static-Display.ttf": "/static/media/Segoe-UI-Variable-Static-Display.dc5de3f434e7711d6275.ttf",
+    "static/media/movesheet2.jpg": "/static/media/movesheet2.22b80e271b964ca38262.jpg",
     "static/media/Agustina.otf": "/static/media/Agustina.320d237b3c9e9e794388.otf",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/portfolio.jpg": "/static/media/portfolio.000033b2b19667d6a4f5.jpg",
     "static/media/nucleo-icons.svg": "/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
+    "static/media/movesheet.jpg": "static/media/movesheet.ee86d5fc2e796c9dd8ca.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.19abb5402a664606b14c.eot",
@@ -15,12 +21,12 @@
     "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
     "index.html": "/index.html",
-    "main.e0c798c1.css.map": "/static/css/main.e0c798c1.css.map",
-    "main.de48e155.js.map": "/static/js/main.de48e155.js.map",
+    "main.26febdf4.css.map": "/static/css/main.26febdf4.css.map",
+    "main.761bb346.js.map": "/static/js/main.761bb346.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0c798c1.css",
-    "static/js/main.de48e155.js"
+    "static/css/main.26febdf4.css",
+    "static/js/main.761bb346.js"
   ]
 }
