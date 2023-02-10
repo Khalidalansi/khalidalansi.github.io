@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+
+@font-face {
+	font-family: 'Segoe UI Variable Small';
+	src: local('Segoe UI Variable Small'),
+		url('../assets/fonts/SegoeUIVF/SegoeUI-VF.ttf') format('truetype-variations');
+	font-variation-settings: 'opsz' 1;
+	font-weight: 300 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI Variable Text';
+	src: local('Segoe UI Variable Text'),
+		url('../assets/fonts/SegoeUIVF/SegoeUI-VF.ttf') format('truetype-variations');
+	font-variation-settings: 'opsz' 10.5;
+	font-weight: 300 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI Variable Display';
+	src: local('Segoe UI Variable Display'),
+		url('../assets/fonts/SegoeUIVF/Segoe-UI-Variable-Static-Display.ttf') format('truetype-variations');
+	font-variation-settings: 'opsz' 36;
+	font-weight: 300 700;
+	font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body>div:first-child {
+  overflow-x: hidden;
+}
+
+
+.fill-custom-dark {
+  fill: #0f172a;
+}
+.description{
+  font-size: medium;
+  font-weight: normal;
+}
