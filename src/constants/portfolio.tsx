@@ -51,6 +51,10 @@ export const skillsSection: SkillsSectionT = {
             ],
             softwareSkills: [
                 {
+                    skillName: " tailwindcss",
+                    fontAwesomeClassname: "logos:tailwindcss-icon",
+                },
+                {
                     skillName: " styled-components",
                     fontAwesomeClassname: "simple-icons:styled-components",
                 },
@@ -232,6 +236,31 @@ export const experience = [
 ];
 
 export const projects: Array<ProjectT> = [
+    {
+        name: "use-interval",
+        desc: "A custom React Hook to help you implement a \"interval\" method. ",
+        github: "https://github.com/Khalidalansi/useInterval",
+        link: "https://www.npmjs.com/package/@khalidalansi/use-interval",
+        images: [
+            // {
+            //     link: require("../assets/images/projects/portfolio.jpg")
+            // }
+        ],
+        technologies: [
+            {
+                name: "React",
+                fontAwesomeClassname: "vscode-icons:file-type-reactjs"
+            },
+            {
+                name: "Typescript",
+                fontAwesomeClassname: "vscode-icons:file-type-typescript",
+            },
+            {
+                name: "npm",
+                fontAwesomeClassname: "logos:npm-icon",
+            },
+        ]
+    },
     {
         name: "Portfolio",
         desc: "Software Developer Portfolio Template built with react.js and typescript bootstrap that helps you showcase your work and skills as a software developer.",

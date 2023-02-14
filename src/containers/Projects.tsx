@@ -9,23 +9,6 @@ import styled, { useTheme } from 'styled-components';
 import { ProjectT } from '../types/ProjectT';
 import images from '../constants/images';
 import { Icon } from "@iconify/react";
-const items = [
-	{
-		id: 1,
-		altText: 'Slide 1',
-		caption: 'Slide 1',
-	},
-	{
-		id: 2,
-		altText: 'Slide 2',
-		caption: 'Slide 2',
-	},
-	{
-		id: 3,
-		altText: 'Slide 3',
-		caption: 'Slide 3',
-	},
-];
 
 export type IProjectsProps = {
 
@@ -39,13 +22,13 @@ const Projects: React.FC<IProjectsProps> = ({ }) => {
 
 	const next = () => {
 		if (animating) return;
-		const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+		const nextIndex = activeIndex === projects.length - 1 ? 0 : activeIndex + 1;
 		setActiveIndex(nextIndex);
 	};
 
 	const previous = () => {
 		if (animating) return;
-		const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+		const nextIndex = activeIndex === 0 ? projects.length - 1 : activeIndex - 1;
 		setActiveIndex(nextIndex);
 	};
 
@@ -141,7 +124,7 @@ const Projects: React.FC<IProjectsProps> = ({ }) => {
 								</Carousel>
 								<CarouselIndicators
 									style={{ color: "#eee" }}
-									items={items}
+									items={projects}
 									activeIndex={activeIndex}
 									onClickHandler={goToIndex}
 								/>
@@ -193,7 +176,7 @@ const Projects: React.FC<IProjectsProps> = ({ }) => {
 								{/* <a href={projects[activeIndex]?.link}>{projects[activeIndex]?.link}</a> */}
 								<span style={{ color: theme?.color }}>{projects[activeIndex]?.desc}</span>
 								<h4 className='mt-2' style={{ color: theme?.color }}>Technologies:</h4>
-								<div className='d-flex flex-warp'>
+								<div className='d-flex flex-wrap'>
 									{_.isArray(projects[activeIndex].technologies) && projects[activeIndex].technologies?.map((item, index) => {
 										return (
 											<div key={index}>
