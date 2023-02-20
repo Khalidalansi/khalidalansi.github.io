@@ -131,6 +131,10 @@ export const skillsSection: SkillsSectionT = {
                     fontAwesomeClassname: "logos:c-sharp",
                 },
                 // {
+                //     skillName: "sql-server",
+                //     fontAwesomeClassname: "logos:sql-server",
+                // },
+                // {
                 //     skillName: "vb-net",
                 //     fontAwesomeClassname: "vscode-icons:file-type-vba",
                 // },
@@ -393,23 +397,44 @@ export const projects: Array<ProjectT> = [
     //     desc: "I created a website for a local client with wordpress",
     //     link: "https://www.binabbas.info/",
     // },
+    // {
+    //     name: "WP Core Plugin Setup",
+    //     desc: "Template WordPress directory that exposes REST endpoints. Also used by script in `server-setup` repo. ( Wordpress - Rest Api ).",
+    //     github: "https://github.com/INTP LLCalienventures/wp-core-plugin-setup",
+    //     images: [],
+    // },
+    // {
+    //     name: "Rapid React App and Server Setup",
+    //     desc: "Sets up web server with React frontend, WordPress backend, nginx conf file, and SSL certificate. ( Ubuntu - Nginx - CertBot ).",
+    //     github: "https://github.com/INTP LLCalienventures/server-setup",
+    //     images: [],
+    // },
+    // {
+    //     name: "Prototype Node",
+    //     desc: "Template React directory. Also used by script in ( server-setup ) repo. ( Node js - React js - Webpack ).",
+    //     github: "https://github.com/INTP LLCalienventures/prototype-node",
+    //     images: [],
+    // },
+
     {
-        name: "WP Core Plugin Setup",
-        desc: "Template WordPress directory that exposes REST endpoints. Also used by script in `server-setup` repo. ( Wordpress - Rest Api ).",
-        github: "https://github.com/INTP LLCalienventures/wp-core-plugin-setup",
-        images: [],
-    },
-    {
-        name: "Rapid React App and Server Setup",
-        desc: "Sets up web server with React frontend, WordPress backend, nginx conf file, and SSL certificate. ( Ubuntu - Nginx - CertBot ).",
-        github: "https://github.com/INTP LLCalienventures/server-setup",
-        images: [],
-    },
-    {
-        name: "Prototype Node",
-        desc: "Template React directory. Also used by script in ( server-setup ) repo. ( Node js - React js - Webpack ).",
-        github: "https://github.com/INTP LLCalienventures/prototype-node",
-        images: [],
+        name: "AmeenSMS",
+        desc: "Integration with Al-Ameen system to send SMS.",
+        // link: "https://www.easyeatery.net",
+        images: [
+            {
+                link: require("../assets/images/projects/ameensms.jpg")
+            }
+        ],
+        technologies: [
+            {
+                name: "c-sharp",
+                fontAwesomeClassname: "logos:c-sharp",
+            },
+            // {
+            //     name: "sql-server",
+            //     fontAwesomeClassname: "logos:sql-server",
+            // },
+        ]
     },
 
 
