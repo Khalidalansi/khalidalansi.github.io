@@ -42,24 +42,17 @@ const Skills: React.FC<ISkillsProps> = ({ }) => {
 														borderStyle: "solid",
 														borderColor: theme?.cardBorderColor,
 														backgroundColor: theme?.cardBackground
-													}}
-												>
-													<Icon
-														icon={
-															skill.fontAwesomeClassname
-														}
-														data-inline="false"
-													></Icon>
+													}}>
+													<Icon icon={skill.fontAwesomeClassname}data-inline="false"></Icon>
 												</div>
 												<UncontrolledTooltip
 													delay={0}
 													placement="bottom"
-													target={skill.skillName.replace(/\s/g, '')}
-												>
+													target={skill.skillName.replace(/\s/g, '')}>
 													{skill.skillName}
 												</UncontrolledTooltip>
 											</Fragment>
-										);
+										)
 									})}
 								</div>
 								<div>
@@ -70,7 +63,7 @@ const Skills: React.FC<ISkillsProps> = ({ }) => {
 							</Reveal>
 						</Col>
 					</Row>
-				);
+				)
 			})}
 		</Container>
 	);

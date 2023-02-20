@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, CardBody, Carousel, CarouselCaption, CarouselControl, CarouselIndicators, CarouselItem, Col, Container, Row } from "reactstrap";
+import { Button, Card, CardBody, Carousel, CarouselCaption, CarouselControl, CarouselIndicators, CarouselItem, Col, Container, Row, UncontrolledTooltip } from "reactstrap";
 import ProjectsCard from '../components/ProjectsCard';
 import { projects } from '../constants/portfolio';
 import { useHorizontalScroll } from '../Hooks/useHorizontalScroll';
@@ -196,6 +196,12 @@ const Projects: React.FC<IProjectsProps> = ({ }) => {
 													}}
 												>
 													<Icon icon={item.fontAwesomeClassname} data-inline="false" style={{ fontSize: 20, color: theme?.color }} />
+													<UncontrolledTooltip
+														delay={0}
+														placement="bottom"
+														target={item.name.replace(/\s/g, '')}>
+														{item.name}
+													</UncontrolledTooltip>
 												</Button>
 											</div>
 										)
