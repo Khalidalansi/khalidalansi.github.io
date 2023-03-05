@@ -8,7 +8,7 @@ export const greetings = {
     description:
         "I'm Full Stack Developer with over 5 years of experience in software engineering and developing new features and apps for different products and clients by using programming tools like Reactjs, React-Native, Wordpress, Laravel, Node.js ..etc . Capable of analyzing customer feedback in order to find the best way to create new and enhance the existing product features and performing quality assurance.",
     resumeLink:
-        "https://drive.google.com/file/d/1zzbZiKRIUW9qUTQKhbV41dbQbuB0TIOw/view?usp=sharing",
+        "https://drive.google.com/file/d/17_ejz7GAQw5Aq7MPP2JhjHIsn8Gvvcwj/view?usp=sharing",
 };
 
 export const openSource = {
@@ -21,7 +21,7 @@ interface SocialLinksT {
     [key: string]: string
 }
 export const socialLinks: SocialLinksT = {
-    url: "https://khalidalansi.github.io/",
+    // url: "https://khalidalansi.github.io/",
     linkedin: "https://www.linkedin.com/in/khalid-alansi",
     github: "https://github.com/Khalidalansi",
     // instagram: "https://www.instagram.com/__hanzla100",

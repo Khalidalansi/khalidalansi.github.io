@@ -20,7 +20,7 @@ const DarkModeToggle = () => {
         <div>
             <Button  color='link' className='  border-0' onClick={toggle}>
                 {/* {context?.darkMode == false ? "☾" : "☀"} */}
-                {context?.darkMode == true ? <Icon fontSize={20} color='rgba(244,244,245,1)' icon="bi:sun-fill" inline></Icon> : <Icon fontSize={20} color='rgba(244,244,245,1)' icon="bi:moon-fill" inline></Icon>}
+                {context?.darkMode == true ? <Icon fontSize={20} color='#fff' icon="bi:sun-fill" inline></Icon> : <Icon fontSize={20} color='rgba(244,244,245,1)' icon="bi:moon-fill" inline></Icon>}
             </Button>
         </div>
     );
