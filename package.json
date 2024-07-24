@@ -20,7 +20,6 @@
     "bezier-js": "^6.1.0",
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.6.0",
-    "gh-pages": "^5.0.0",
     "glamor": "^2.20.40",
     "headroom.js": "^0.12.0",
     "lodash": "^4.17.21",
@@ -39,8 +38,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://github.com/Khalidalansi/khalidalansi.github.io.git",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "resolve-build": "node scripts/resolve-build.js"
@@ -62,5 +60,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
