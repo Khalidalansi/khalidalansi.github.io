@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.758337a0.css",
-    "main.js": "/static/js/main.e3fc42f3.js",
+    "main.js": "/static/js/main.c3477a09.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/SegoeUI-VF.ttf": "/static/media/SegoeUI-VF.142593ecca549715e938.ttf",
-    "static/media/binzaidoon1.png": "/static/media/binzaidoon1.7896a1e643e9f85288e4.png",
     "static/media/binzaidoon3.png": "/static/media/binzaidoon3.6197d0b1dbea6fc55281.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
     "static/media/easyeatery.jpg": "/static/media/easyeatery.c1ad9f86cd8ca0c6cacc.jpg",
@@ -12,6 +11,7 @@
     "static/media/Segoe-UI-Variable-Static-Display.ttf": "/static/media/Segoe-UI-Variable-Static-Display.dc5de3f434e7711d6275.ttf",
     "static/media/binzaidoon2.png": "/static/media/binzaidoon2.e6448f5503d8e633415b.png",
     "static/media/movesheet2.jpg": "/static/media/movesheet2.22b80e271b964ca38262.jpg",
+    "static/media/binzaidoon1.jpg": "/static/media/binzaidoon1.2de579756c9e7b7b6929.jpg",
     "static/media/Agustina.otf": "/static/media/Agustina.320d237b3c9e9e794388.otf",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -29,11 +29,11 @@
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
     "index.html": "/index.html",
     "main.758337a0.css.map": "/static/css/main.758337a0.css.map",
-    "main.e3fc42f3.js.map": "/static/js/main.e3fc42f3.js.map",
+    "main.c3477a09.js.map": "/static/js/main.c3477a09.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.758337a0.css",
-    "static/js/main.e3fc42f3.js"
+    "static/js/main.c3477a09.js"
   ]
 }
