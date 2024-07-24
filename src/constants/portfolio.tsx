@@ -442,7 +442,7 @@ export const projects: Array<ProjectT> = [
         link: "https://www.bzst.co/",
         images: [
             {
-                link: require("../assets/images/projects/binzaidoon1.png")
+                link: require("../assets/images/projects/binzaidoon1.jpg")
             },
             {
                 link: require("../assets/images/projects/binzaidoon1.png")

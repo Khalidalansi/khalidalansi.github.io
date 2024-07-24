@@ -38,6 +38,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build -r https://github.com/Khalidalansi/khalidalansi.github.io.git",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
