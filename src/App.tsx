@@ -11,14 +11,11 @@ import SettingsContext from './constants/Theme/Settings/SettingsContext';
 import { darkTheme, lightTheme } from './constants/Theme/themes';
 import GlobalStyles from './constants/Theme/GlobalStyles';
 import SettingsProvider from './constants/Theme/Settings/SettingsProvider';
-// @ts-ignore
-// import { useInterval } from '@khalidalansi/use-interval'
+
 const RootApp = (): JSX.Element => {
   const context = React.useContext(SettingsContext);
   const theme = context?.darkMode ? darkTheme : lightTheme;
-  // useInterval(() => {
-  //   console.log("runing")
-  // }, 500)
+ 
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />

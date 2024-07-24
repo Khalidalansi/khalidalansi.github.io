@@ -9,6 +9,7 @@ import Feedbacks from './containers/Feedbacks';
 import Projects from './containers/Projects';
 import GithubProfileCard from './components/GithubProfileCard';
 import { openSource } from './constants/portfolio';
+import ProjectsCarousel from './containers/ProjectsCarousel';
 
 const githubProfileData = async (githubUserName: string): Promise<any> => {
     const githubProfileData = await fetch(
@@ -42,6 +43,7 @@ const MainApp: React.FC<IMainAppProps> = ({ }) => {
             <Experience />
             {/* <Feedbacks /> */}
             <Projects />
+            {/* <ProjectsCarousel />  */}
             <GithubProfileCard prof={profileData} />
         </>
     );

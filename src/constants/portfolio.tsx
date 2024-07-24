@@ -6,7 +6,7 @@ export const greetings = {
     name: "Khalid Alansi",
     title: "Hi all, I'm Khalid Alansi",
     description:
-        "I'm Full Stack Developer with over 5 years of experience in software engineering and developing new features and apps for different products and clients by using programming tools like Reactjs, React-Native, Wordpress, Laravel, Node.js ..etc . Capable of analyzing customer feedback in order to find the best way to create new and enhance the existing product features and performing quality assurance.",
+        "I'm Full Stack Developer with over 6 years of experience in software engineering and developing new features and apps for different products and clients by using programming tools like Reactjs, React-Native, Wordpress, Laravel, Node.js ..etc . Capable of analyzing customer feedback in order to find the best way to create new and enhance the existing product features and performing quality assurance.",
     resumeLink:
         "https://drive.google.com/file/d/17_ejz7GAQw5Aq7MPP2JhjHIsn8Gvvcwj/view?usp=sharing",
 };
@@ -434,6 +434,42 @@ export const projects: Array<ProjectT> = [
             //     name: "sql-server",
             //     fontAwesomeClassname: "logos:sql-server",
             // },
+        ]
+    },
+    {
+        name: "Bin Zaidoon",
+        desc: "An introductory website for his office, Bin Zaidoon. ( Wordpress-Theme ).",
+        link: "https://www.bzst.co/",
+        images: [
+            {
+                link: require("../assets/images/projects/binzaidoon1.png")
+            },
+            {
+                link: require("../assets/images/projects/binzaidoon1.png")
+            },
+            {
+                link: require("../assets/images/projects/binzaidoon2.png")
+            },
+            {
+                link: require("../assets/images/projects/binzaidoon3.png")
+            },
+            {
+                link: require("../assets/images/projects/binzaidoon4.png")
+            },
+            {
+                link: require("../assets/images/projects/binzaidoon5.png")
+            }
+        ],
+        technologies: [
+          
+            {
+                name: "Wordpress",
+                fontAwesomeClassname: "skill-icons:wordpress",
+            },
+            {
+                name: "PHP",
+                fontAwesomeClassname: "vscode-icons:file-type-php3",
+            },
         ]
     },
 
