@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.758337a0.css",
-    "main.js": "/static/js/main.6aa3a09a.js",
+    "main.js": "/static/js/main.e3fc42f3.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/SegoeUI-VF.ttf": "/static/media/SegoeUI-VF.142593ecca549715e938.ttf",
+    "static/media/binzaidoon1.png": "/static/media/binzaidoon1.7896a1e643e9f85288e4.png",
+    "static/media/binzaidoon3.png": "/static/media/binzaidoon3.6197d0b1dbea6fc55281.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
     "static/media/easyeatery.jpg": "/static/media/easyeatery.c1ad9f86cd8ca0c6cacc.jpg",
     "static/media/Montserrat-Arabic-Regular.ttf": "/static/media/Montserrat-Arabic-Regular.f4bc977d99d3b2807033.ttf",
     "static/media/Segoe-UI-Variable-Static-Display.ttf": "/static/media/Segoe-UI-Variable-Static-Display.dc5de3f434e7711d6275.ttf",
+    "static/media/binzaidoon2.png": "/static/media/binzaidoon2.e6448f5503d8e633415b.png",
     "static/media/movesheet2.jpg": "/static/media/movesheet2.22b80e271b964ca38262.jpg",
     "static/media/Agustina.otf": "/static/media/Agustina.320d237b3c9e9e794388.otf",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -15,8 +18,10 @@
     "static/media/portfolio.jpg": "/static/media/portfolio.000033b2b19667d6a4f5.jpg",
     "static/media/nucleo-icons.svg": "/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
     "static/media/movesheet.jpg": "/static/media/movesheet.ee86d5fc2e796c9dd8ca.jpg",
+    "static/media/binzaidoon5.png": "/static/media/binzaidoon5.01470dd754b9d3ac6c3d.png",
     "static/media/ameensms.jpg": "/static/media/ameensms.6d7e4c0c1ae488f2e67e.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/binzaidoon4.png": "/static/media/binzaidoon4.1fc1095e3e8a48ef7574.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.19abb5402a664606b14c.eot",
     "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
@@ -24,11 +29,11 @@
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
     "index.html": "/index.html",
     "main.758337a0.css.map": "/static/css/main.758337a0.css.map",
-    "main.6aa3a09a.js.map": "/static/js/main.6aa3a09a.js.map",
+    "main.e3fc42f3.js.map": "/static/js/main.e3fc42f3.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.758337a0.css",
-    "static/js/main.6aa3a09a.js"
+    "static/js/main.e3fc42f3.js"
   ]
 }
