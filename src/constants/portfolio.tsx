@@ -445,13 +445,13 @@ export const projects: Array<ProjectT> = [
                 link: require("../assets/images/projects/binzaidoon1.jpg")
             },
             {
-                link: require("../assets/images/projects/binzaidoon1.png")
+                link: require("../assets/images/projects/binzaidoon1.jpg")
             },
             {
                 link: require("../assets/images/projects/binzaidoon2.png")
             },
             {
-                link: require("../assets/images/projects/binzaidoon3.png")
+                link: require("../assets/images/مprojects/binzaidoon3.png")
             },
             {
                 link: require("../assets/images/projects/binzaidoon4.png")
